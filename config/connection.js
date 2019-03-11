@@ -3,7 +3,7 @@ connection = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "Arsenal$7",
-    database: "burger_db"
+    database: "burgers_db"
 });
 
 connection.connect(function(err) {
